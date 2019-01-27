@@ -15,5 +15,5 @@
     "pypi": ["str"],
     "apk": ["str"]
   },
-  "image": "homeassistant/{arch}-addon-lighthub"
+  "image": "homeassistant/{arch}"
 }
