@@ -1,12 +1,15 @@
 {
   "name": "Lighthub controller",
-  "version": "1",
+  "version": "2",
   "slug": "lighthub",
   "description": "Integration with LightHub smarthome controller",
   "url": "https://www.lazyhome.ru/index.php/14-myhome/18-lighthub",
   "startup": "once",
   "boot": "manual",
   "map": ["config:rw"],
+  "ports": {
+    "8881/tcp": 8881
+  },
   "options": {
     "pypi": [null],
     "apk": []
