@@ -1,0 +1,20 @@
+/usr/share/hassio/addons/lighthub/config.json                                                                                                                                440/440               100%
+{
+  "name": "Lighthub controller",
+  "version": "1",
+  "slug": "lighthub",
+  "description": "Integration with LightHub smarthome controller",
+  "url": "https://www.lazyhome.ru/index.php/14-myhome/18-lighthub",
+  "startup": "once",
+  "boot": "manual",
+  "map": ["config:rw"],
+  "options": {
+    "pypi": [null],
+    "apk": []
+  },
+  "schema": {
+    "pypi": ["str"],
+    "apk": ["str"]
+  },
+  "image": "homeassistant/{arch}-addon-lighthub"
+}
