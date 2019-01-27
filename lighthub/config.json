@@ -14,5 +14,5 @@
   "schema": {
     "pypi": ["str"],
     "apk": ["str"]
-  },
+  }
 }
