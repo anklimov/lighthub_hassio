@@ -15,5 +15,5 @@
     "pypi": ["str"],
     "apk": ["str"]
   },
-  "image": "homeassistant/{arch}"
+  "image": "homeassistant/{arch}-base:latest"
 }
