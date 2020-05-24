@@ -13,7 +13,7 @@
   },
   "options": {
     "pypi": [],
-    "apk": []
+    "apk": ["python3"]
   },
   "schema": {
     "pypi": ["str"],
