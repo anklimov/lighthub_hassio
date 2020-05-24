@@ -1,6 +1,6 @@
 {
   "name": "Lighthub controller",
-  "version": "4",
+  "version": "5",
   "slug": "lighthub",
   "description": "Config server for LightHub smarthome controller",
   "url": "https://www.lazyhome.ru/index.php/14-myhome/18-lighthub",
