@@ -1,9 +1,10 @@
 {
   "name": "Lighthub controller",
-  "version": "2",
+  "version": "3",
   "slug": "lighthub",
-  "description": "Integration with LightHub smarthome controller",
+  "description": "Config server for LightHub smarthome controller",
   "url": "https://www.lazyhome.ru/index.php/14-myhome/18-lighthub",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "once",
   "boot": "manual",
   "map": ["config:rw"],
