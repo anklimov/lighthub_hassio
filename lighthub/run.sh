@@ -16,8 +16,7 @@ if [ -n "${APK}" ]; then
     # shellcheck disable=SC2086
     if ! ERROR="$(apk add --no-cache ${APK})"; then
         echo "[Error] Can't install packages!"
-        echo "${ERROR}" 
-        # && exit 1
+        echo "${ERROR}" && exit 1
     fi
 fi
 
@@ -28,7 +27,8 @@ export PYTHONUSERBASE=/config/deps
 # shellcheck disable=SC2086
 if ! ERROR="$(pip3 install --user --no-cache-dir --prefix= --no-dependencies ${PYPI})"; then
     echo "[Error] Can't install PyPI packages!"
-    echo "${ERROR}" && exit 1
+    echo "${ERROR}" 
+    #&& exit 1
 fi
 python3 -m http.server 8881
 echo "[Info] done"
