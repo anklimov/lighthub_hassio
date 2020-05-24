@@ -16,7 +16,8 @@ if [ -n "${APK}" ]; then
     # shellcheck disable=SC2086
     if ! ERROR="$(apk add --no-cache ${APK})"; then
         echo "[Error] Can't install packages!"
-        echo "${ERROR}" && exit 1
+        echo "${ERROR}" 
+        # && exit 1
     fi
 fi
 
