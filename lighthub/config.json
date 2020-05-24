@@ -12,7 +12,7 @@
     "8881/tcp": 8881
   },
   "options": {
-    "pypi": [null],
+    "pypi": [],
     "apk": []
   },
   "schema": {
