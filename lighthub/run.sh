@@ -29,5 +29,5 @@ if ! ERROR="$(pip3 install --user --no-cache-dir --prefix= --no-dependencies ${P
     echo "[Error] Can't install PyPI packages!"
     echo "${ERROR}" && exit 1
 fi
-
+python3 -m http.server 8881
 echo "[Info] done"
